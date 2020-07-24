@@ -9,7 +9,7 @@ public class TestPoint {
         Point p3 = new Point(2,2,1);
 
         p1.inPoint();
-        System.out.println("\nCap nhat hoanh do moi cho p1 thanh 5 : ");
+        System.out.println("Cap nhat hoanh do moi cho p1 thanh 5 : ");
         p1.setHoanhDo(5);
         p1.inPoint();
     }

@@ -16,7 +16,7 @@ public class Point {
         z = cd;
     }
 
-    Point( Point p2) {
+    Point(Point p2) {
         x = p2.x;
         y= p2.y;
         z = p2.z;
@@ -45,6 +45,6 @@ public class Point {
 
     // in:
     void inPoint() {
-        System.out.print( " ("+x+","+y+","+z+") ");
+        System.out.print(" (" + x + "," + y + "," + z + ") ");
     }
 }
